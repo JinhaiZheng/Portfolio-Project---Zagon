@@ -8,6 +8,10 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 
+h1 {
+    font-size: 35px;
+}
+
 #end-p {
     font-size: 30px;
     line-height: 3.5;
