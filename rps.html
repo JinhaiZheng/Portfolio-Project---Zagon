@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagon - Rock, Paper, Sissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="rps-body" class="stage-body">
+    <h1>Rock Papper Sissor</h1>
+
+    <p>In order to clear this stage, you need to win at least 3 rounds after round 5.</p>
+
+    <h2 id="round">Round <span id="round-num">1</span></h2>
+
+    <h2>
+        <span id= one-you>You</span>
+        <span id="one-opponent">Computer</span>
+    </h2>
+
+    <p id=rps-choice> 
+        <button class="rps-btn" id="rock">Rock</button>
+        <button class="rps-btn" id="paper">Paper</button>
+        <button class="rps-btn" id="sissors">Sissor</button>
+    </p>
+
+    <p>
+        <img id="result-you" src="images/RPSCard.jpg" width="146.4" height="207.6">
+        <img id="result-opponent" src="images/RPSCard.jpg" width="146.4" height="207.6"> 
+    </p>
+
+    <h3>Result: <span id="result">-----</span></h3>
+
+    <p>
+        Your Score: <span id="score">-----</span>
+    </p>
+
+    
+    <!-- Load JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

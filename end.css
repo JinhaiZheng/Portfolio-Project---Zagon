@@ -1,0 +1,14 @@
+html {
+    background-color: black;
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#end-p {
+    font-size: 30px;
+    line-height: 3.5;
+}

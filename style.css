@@ -1,0 +1,155 @@
+/* Backgroud */
+html {
+    background: url("images/map.png") center no-repeat fixed;
+    background-size: cover;
+}
+
+/* Start Page */
+#start-body {
+    text-align: center;
+    margin: 100px auto;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#instruction {
+    font-size: large;
+}
+
+#start-btn {
+    background-color: red;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
+}
+
+/* Map Page */
+#map-title {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#rps-stage {
+    margin-left: 280px;
+    margin-top: 40px;
+  }
+
+#ngg-stage {
+    margin-left: 160px;
+}
+
+#sun-stage {
+    margin-left: 400px;
+}
+
+#stage-cleared {
+    font-size: 23px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#end-stage {
+    margin-left: 600px;
+}
+
+/* Style For All Stages */
+.stage-body {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 500px;
+    padding: 30px 50px;
+    margin: 25px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+/* RPS Stage */
+#rps-body {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    padding: 30px 50px;
+    margin: 25px auto;
+    border-radius: 10px;
+    text-align:left;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+#one-you {
+    margin-right: 80px;
+}
+
+#one-opponent {
+    margin-left: 120px;
+}
+
+#rps-choice {
+    margin-right: 360px;
+}
+
+#rock {
+ background-color: rgb(255, 34, 1);
+}
+
+#paper {
+ background-color: rgb(76, 224, 1);
+}
+
+#sissors {
+    margin-top: 8px;
+    background-color: rgb(87, 191, 255);
+}
+
+.rps-btn {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(237, 237, 237);
+}
+
+#result-you {
+    margin-right: 80px;
+}
+
+#result-opponent {
+    margin-left: 50px;
+}
+
+/* NGG Stage */
+#guess-btn {
+    margin-top: 10px;
+    background-color:blue ;
+    font-size: 20px;
+    color: white;
+    padding: 6px 14px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+/* Sun Stage */
+#sun-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.cloud-btn {
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#cloud-img {
+    display: none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagon - Where is the Sun?</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="stage-body">
+    <h1>Where is the sun?</h1>
+
+    <h2>Wait until the sun to hide itself, then check out which cloud it hides!</h2>
+
+    <p><button id="sun-btn">START</button></p>
+
+    <p>
+        <button class="cloud-btn" id="cloud1-btn">Cloud #1</button>
+        <button class="cloud-btn" id="cloud2-btn">Cloud #2</button>
+        <button class="cloud-btn" id="cloud3-btn">Cloud #3</button>
+    </p>
+
+    <!-- Add a canvas element to the page -->
+    <canvas id="myCanvas"></canvas>
+
+    <!-- Load image to page -->
+    <img id="cloud-img" src="images/cloth-cloud.png">
+    
+    <!-- Load JavaScript -->
+    <script src="sun.js"></script>
+</body>
+</html>
