@@ -30,12 +30,12 @@ html {
 #map-title {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
 }
 
 #rps-stage {
     margin-left: 280px;
-    margin-top: 40px;
-  }
+}
 
 #ngg-stage {
     margin-left: 160px;
@@ -87,7 +87,7 @@ h2 {
 }
 
 #one-opponent {
-    margin-left: 120px;
+    margin-left: 150px;
 }
 
 #rps-choice {
